@@ -1,7 +1,7 @@
 from openai import OpenAI
 
-api_key = "KK"
-client = OpenAI(api_key=api_key)
+api_key = "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"
+client = OpenAI(api_key="")
 
 messages= [
     {"role":"system", "content":"You are a helpful assistant."},
