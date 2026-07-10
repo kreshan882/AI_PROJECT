@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-api_key = "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"
+api_key = "KKsk-proj-F3ColKx4-xTtc04FkUoExMrxZx3x7LTs4KEAecEHwD3VOdDwn5H4yjgbal3LhpUE6wxC371K4AT3BlbkFJ-s5nb7jPqtrn_tceIVo2jwMPJ7IB8Er-8P02G2Ez_M1PLX2bvxK5QJ3k2qAMX5W31biO9QfPUA"
 client = OpenAI(api_key=api_key)
 
 messages= [
