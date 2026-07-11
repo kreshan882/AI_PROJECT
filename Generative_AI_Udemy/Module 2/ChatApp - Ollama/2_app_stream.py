@@ -8,7 +8,7 @@ messages = [
 def get_chat_response(messages):
     url = "http://localhost:11434/api/chat"
     payload = {
-        "model": "qwen3:4b",
+        "model": "qwen3.5:0.8b",
         "messages": messages, # Pass the whole message history
         "stream": True
     }

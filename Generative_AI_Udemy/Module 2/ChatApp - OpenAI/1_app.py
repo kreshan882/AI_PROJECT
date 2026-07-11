@@ -3,7 +3,7 @@ from openai import OpenAI
 # https://platform.openai.com/api-keys
 # settings->org Settings-> billing
 # api_keykk = ""
-api_key = "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"
+api_key = "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"
 
 client = OpenAI(api_key=api_key)
 

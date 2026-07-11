@@ -5,7 +5,7 @@ import ollama
 def call_via_rest(prompt: str) -> str:
     url = "http://localhost:11434/api/generate"
     payload = {
-        "model": "qwen3:4b",
+        "model": "qwen3.5:0.8b",
         "prompt": prompt,
         "stream": False,
         # "keep_alive": -1
@@ -19,7 +19,7 @@ def call_via_rest(prompt: str) -> str:
 # Function 2: Use Ollama Python Library
 def call_via_lib(prompt: str) -> str:
     response = ollama.chat(
-        model="qwen3:4b",
+        model="qwen3.5:0.8b", #"qwen3:4b",
         messages=[{"role": "user", "content": prompt}]
     )
     return response["message"]["content"]
